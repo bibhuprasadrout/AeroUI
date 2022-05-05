@@ -1,0 +1,14 @@
+/* line break */
+
+.lb-a {
+  line-break: auto;
+}
+.lb-l {
+  line-break: loose;
+}
+.lb-n {
+  line-break: normal;
+}
+.lb-s {
+  line-break: strict;
+}

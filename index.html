@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title -->
+    <title>AeroUI</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="./assets/icons/AeroUI-Icon.svg" class="favicon">
+    <link rel="apple-touch-icon" href="./assets/icons/AeroUI-Icon.svg" class="favicon">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/index.css">
+
+    <!-- scripts -->
+    <script src="./index.js"></script>
+    <script defer src="./components/navBar/navBar.js"></script>
+</head>
+<body>
+    <div class="top container container_90" >
+        
+        <!-- Nav bar -->
+        <div class="navBar flex-c jc-sb">
+            <div class="navLeft flex-c gc-15">
+                <img src="./assets/icons/AeroUI-Icon.svg" alt="logo" class="navLogo icon">
+                <span class="navTitle w-7">AeroUI</span>
+            </div>
+            <div class="navRight vw-s-d">
+                <ul class="navMenu flex-c gc-15 w-5">
+                    <li>Home</li>
+                    <li>Docs</li>
+                    <li>Components</li>
+                    <li class="pageMode d-grid">
+                        <img src="./assets/icons/darkModeIcon.svg" alt="Dark" class="hidden">
+                        <img src="./assets/icons/lightModeIcon.svg" alt="Light" >
+                    </li>
+                    <li><img src="./assets/icons/githubLight.svg" alt="Github"></li>
+                </ul>
+            </div>
+            <div class="navRight vw-s-a">
+                <div class="flex-c gc-15">
+                    <div class="p-r">
+                        <img src="./assets/icons/hamBurgerMenu.svg" alt="hamburger icon" class="navMenuMobileIcon">
+                        <ul class="navMenuMobile ff-c d-flex jc-c ai-fs w-5 p-a hidden">
+                            <li>Home</li>
+                            <li>Docs</li>
+                            <li>Components</li>
+                            <li>
+                                <p>Contribute</p>
+                                <img src="./assets/icons/githubLight.svg" alt="Github">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pageMode d-grid">
+                        <img src="./assets/icons/darkModeIcon.svg" alt="Dark" class="hidden">
+                        <img src="./assets/icons/lightModeIcon.svg" alt="Light" >
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

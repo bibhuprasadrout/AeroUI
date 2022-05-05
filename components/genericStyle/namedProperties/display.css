@@ -1,0 +1,17 @@
+/* display properties */
+
+.d-b {
+  display: block;
+}
+.d-c {
+  display: contents;
+}
+.d-i {
+  display: inline;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-none {
+  display: none;
+}

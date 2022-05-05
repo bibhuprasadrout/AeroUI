@@ -1,0 +1,11 @@
+html {
+  font-family:  'Merriweather Sans';
+  font-weight: 300;
+  font-size: 62.5%;
+}
+
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

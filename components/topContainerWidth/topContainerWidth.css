@@ -1,0 +1,18 @@
+.top.container {
+  width: 100%;
+}
+
+.top.container.container_90 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.top.container.container_70 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.top.container.container_50 {
+  width: 50%;
+  margin: 0 auto;
+}

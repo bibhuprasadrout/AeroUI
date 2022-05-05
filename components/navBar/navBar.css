@@ -1,0 +1,26 @@
+/* Nav bar */
+.navLogo {
+  width: 5.7em;
+}
+.navTitle {
+  font-size: 4.7em;
+  font-style: italic;
+}
+.navMenu {
+  font-size: 2.1em;
+}
+.navMenuMobile {
+  font-size: 2.1em;
+}
+.navMenu li:not(.d-grid) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pageMode {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.pageMode img {
+  grid-area: center;
+}

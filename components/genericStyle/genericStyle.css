@@ -1,0 +1,23 @@
+@import url(./mediaQueryBreakPoints/mediaQueryBreakPoints.css);
+@import url(./compoundProperties/font.css);
+@import url(./compoundProperties/line.css);
+@import url(./compoundProperties/text.css);
+@import url(./flexAndGrid/flexAndGrid.css);
+@import url(./namedProperties/backgrond.css);
+@import url(./namedProperties/border.css);
+@import url(./namedProperties/display.css);
+@import url(./namedProperties/heightAndWidth.css);
+@import url(./namedProperties/margin.css);
+@import url(./namedProperties/padding.css);
+@import url(./namedProperties/position.css);
+@import url(./namedProperties/scroll.css);
+@import url(./namedProperties/zIndex.css);
+
+/* visibility */
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
