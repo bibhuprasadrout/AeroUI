@@ -2,9 +2,11 @@ html {
   font-family:  'Merriweather Sans';
   font-weight: 300;
   font-size: 62.5%;
+  min-width: 270px;
 }
 
 * {
+  box-sizing: border-box;
   list-style: none;
   margin: 0;
   padding: 0;

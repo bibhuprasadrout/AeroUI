@@ -1,0 +1,56 @@
+/* horizontal list */
+.horizontal-list {
+  display: flex;
+  gap: 1.5rem;
+}
+/* vertical list */
+.vertical-list {
+  display: flex;
+  flex-flow: column;
+  gap: 1.5rem;
+}
+
+.unordered-list {
+  list-style-type: disc;
+}
+
+.circle-list {
+  list-style-type: circle;
+}
+
+.square-list {
+  list-style-type: square;
+}
+
+.no-bullet {
+  list-style-type: none;
+}
+
+.ordered-list {
+  list-style-type: decimal;
+}
+
+.upper-alpha-list {
+  list-style-type: upper-alpha;
+}
+
+.lower-alpha-list {
+  list-style-type: lower-alpha;
+}
+
+.upper-roman-list {
+  list-style-type: upper-roman;
+}
+
+.lower-roman-list {
+  list-style-type: lower-roman;
+}
+
+.inline-list li {
+  margin: 0 1rem;
+  display: inline-block;
+}
+
+.stacked-notification-list li {
+  margin: 1rem auto;
+}

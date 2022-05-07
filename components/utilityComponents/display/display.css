@@ -1,0 +1,29 @@
+/* display properties */
+
+.display-b {
+  display: block;
+}
+.display-c {
+  display: contents;
+}
+.display-i {
+  display: inline;
+}
+.display-ib {
+  display: inline-block;
+}
+.display-if {
+  display: inline-flex;
+}
+.display-n {
+  display: none;
+}
+.display-t {
+  display: table;
+}
+.display-tc {
+  display: table-cell;
+}
+.display-tr {
+  display: table-row;
+}

@@ -1,3 +1,29 @@
+/* position */
+
+.position-a {
+  position: absolute;
+}
+
+.position-f {
+  position: fixed;
+}
+
+.position-r {
+  position: relative;
+}
+
+.position-static {
+  position: static;
+}
+
+.position-sticky {
+  position: sticky;
+}
+
+
+
+
+/* z-index */
 .z1 {
   z-index: 1;
 }

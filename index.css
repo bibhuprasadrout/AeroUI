@@ -1,9 +1,13 @@
-@import url(./components/resetStyle/normalize.css);
+/* css reset */
+@import url(./resetStyle/normalize.css);
+@import url(./resetStyle/resetStyle.css);
+
+
+
+/* fonts used */
 @import url(./fonts/Merriweather/Fonts.css);
-@import url(./components/resetStyle/resetStyle.css);
-@import url(./components/topContainerWidth/topContainerWidth.css);
-@import url(./components/genericStyle/genericStyle.css);
-/* A Component library is usually browsed from a 
-desktop, Thus we are following a desktop first
-approach. */
-@import url(./components/navBar/navBar.css);
+
+
+
+/* Components */
+@import url(./components/components.css);

@@ -1,0 +1,192 @@
+@import url(../root.css);
+
+/* flex and grid */
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+
+/* center flex elements */
+.flex-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* center grid elements one upon another(super-impose),
+The elements involved and their parent are 
+coded together for this to work */
+
+/* code for the parent */
+.grid-c {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+/* code for the elemets inside  */
+.grid-child-c {
+  grid-area: center;
+}
+
+/* align content */
+.ac-c {
+  align-content: center;
+}
+.ac-fs {
+  align-content: flex-start;
+}
+.ac-fe {
+  align-content: flex-end;
+}
+.ac-sa {
+  align-content: space-around;
+}
+.ac-sb {
+  align-content: space-between;
+}
+.ac-s {
+  align-content: stretch;
+}
+
+/* align items */
+.ai-b {
+  align-items: baseline;
+}
+.ai-c {
+  align-items: center;
+}
+.ai-fs {
+  align-items: flex-start;
+}
+.ai-fe {
+  align-items: flex-end;
+}
+.ai-s {
+  align-items: stretch;
+}
+
+/* justify items */
+.ji-b {
+  justify-items: baseline;
+}
+.ji-c {
+  justify-items: center;
+}
+.ji-e {
+  justify-items: end;
+}
+.ji-fs {
+  justify-items: flex-start;
+}
+.ji-fe {
+  justify-items: flex-end;
+}
+
+/* justify content */
+.jc-c {
+  justify-content: center;
+}
+.jc-sa {
+  justify-content: space-around;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.jc-se {
+  justify-content: space-evenly;
+}
+.jc-fs {
+  justify-content: flex-start;
+}
+.jc-fe {
+  justify-content: flex-end;
+}
+
+/* flex flow */
+.ff-c {
+  flex-flow: column;
+}
+.ff-cr {
+  flex-flow: column-reverse;
+}
+.ff-n {
+  flex-flow: nowrap;
+}
+.ff-r {
+  flex-flow: row;
+}
+.ff-rr {
+  flex-flow: row-reverse;
+}
+.ff-w {
+  flex-flow: wrap;
+}
+.ff-wr {
+  flex-flow: wrap-reverse;
+}
+
+/* gap/gutter */
+/* gutters are available from 10px to 
+30px with an increament of 5px */
+.g-1 {
+  gap: var(--size-1);
+}
+.gx-1 {
+  gap: 0 var(--size-1);
+}
+.gy-1 {
+  gap: var(--size-1) 0;
+}
+
+.g-2 {
+  gap: var(--size-1p5);
+}
+.gx-2 {
+  gap: 0 var(--size-1p5);
+}
+.gy-2 {
+  gap: var(--size-1p5) 0;
+}
+
+.g-2 {
+  gap: var(--size-2);
+}
+.gx-2 {
+  gap: 0 var(--size-2);
+}
+.gy-2 {
+  gap: var(--size-2) 0;
+}
+
+.g-3 {
+  gap: var(--size-2p5);
+}
+.gx-3 {
+  gap: 0 var(--size-2p5);
+}
+.gy-3 {
+  gap: var(--size-2p5) 0;
+}
+
+.g-4 {
+  gap: var(--size-3);
+}
+.gx-4 {
+  gap: 0 var(--size-3);
+}
+.gy-4 {
+  gap: var(--size-3) 0;
+}
+
+.g-5 {
+  gap: var(--size-3p5);
+}
+.gx-5 {
+  gap: 0 var(--size-3p5);
+}
+.gy-5 {
+  gap: var(--size-3p5) 0;
+}
+

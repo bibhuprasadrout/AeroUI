@@ -1,132 +1,122 @@
+/* using media query to hide and show elements */
+
 /* 30em is 480px, 
-vw-xs-a stands for 
-viewportWidth-extraSmall-appear */
-.vw-xs-a {
+show at screen-extraSmall */
+.show-screen-xs {
   display: none;
 }
 @media screen and (max-width: 30em) {
-  .vw-xs-a {
+  .show-screen-xs {
     display: initial;
   }
 }
 /* 48em is 768px, 
-vw-s-a stands for 
-viewportWidth-Small-appear */
-.vw-s-a {
+show at screen-Small */
+.show-screen-s {
   display: none;
 }
 @media screen and (max-width: 48em) {
-  .vw-s-a {
+  .show-screen-s {
     display: initial;
   }
 }
-/* 64em is 1024px, 
-vw-xs-a stands for 
-viewportWidth-medium-appear */
-.vw-m-a {
+/* 64em is 1024px, show at 
+screen-medium */
+.show-screen-m {
   display: none;
 }
 @media screen and (max-width: 64em) {
-  .vw-m-a {
+  .show-screen-m {
     display: initial;
   }
 }
 /* 80em is 1280px, 
-vw-l-a stands for 
-viewportWidth-large-appear */
-.vw-l-a {
+show at screen-large */
+.show-screen-l {
   display: none;
 }
 @media screen and (max-width: 80em) {
-  .vw-l-a {
+  .show-screen-l {
     display: initial;
   }
 }
 /* 96em is 1536px, 
-vw-xl-a stands for 
-viewportWidth-extraLarge-appear */
-.vw-xl-a {
+show at screen-extraLarge */
+.show-screen-xl {
   display: none;
 }
 @media screen and (max-width: 96em) {
-  .vw-xl-a {
+  .show-screen-xl {
     display: initial;
   }
 }
 /* 96em is 1536px, 
-vw-xxl-a stands for 
-viewportWidth-extraExtraLarge-appear */
-.vw-xxl-a {
+show at screen-extraExtraLarge */
+.show-screen-xxl {
   display: none;
 }
 @media screen and (min-width: 96em) {
-  .vw-xxl-a {
+  .show-screen-xxl {
     display: initial;
   }
 }
 /* 30em is 480px, 
-vw-xs-d stands for 
-viewportWidth-extraSmall-disappear */
-.vw-xs-d {
+hide at screen-extraSmall */
+.hide-screen-xs {
   display: initial;
 }
 @media screen and (max-width: 30em) {
-  .vw-xs-d {
+  .hide-screen-xs {
     display: none;
   }
 }
 /* 48em is 768px, 
-vw-s-d stands for 
-viewportWidth-Small-disappear */
-.vw-s-d {
+hide at screen-Small */
+.hide-screen-s {
   display: initial;
 }
 @media screen and (max-width: 48em) {
-  .vw-s-d {
+  .hide-screen-s {
     display: none;
   }
 }
 /* 64em is 1024px, 
-vw-m-d stands for 
-viewportWidth-medium-disappear */
-.vw-m-d {
+hide at screen-medium */
+.hide-screen-m {
   display: initial;
 }
 @media screen and (max-width: 64em) {
-  .vw-m-d {
+  .hide-screen-m {
     display: none;
   }
 }
 /* 80em is 1280px, 
-vw-l-d stands for 
-viewportWidth-large-disappear */
-.vw-l-d {
+hide at screen-large */
+.hide-screen-l {
   display: initial;
 }
 @media screen and (max-width: 80em) {
-  .vw-l-d {
+  .hide-screen-l {
     display: none;
   }
 }
 /* 96em is 1536px, 
-vw-xl-d stands for 
-viewportWidth-extraLarge-disappear */
-.vw-xl-d {
+hide at screen-extraLarge */
+.hide-screen-xl {
   display: initial;
 }
 @media screen and (max-width: 96em) {
-  .vw-xl-d {
+  .hide-screen-xl {
     display: none;
   }
 }
 /* 96em is 1536px, 
-vw-xxl-d stands for 
-viewportWidth-extraExtraLarge-disappear */
-.vw-xxl-d {
+hide at screen-extraExtraLarge */
+.hide-screen-xxl {
   display: initial;
 }
 @media screen and (max-width: 96em) {
-  .vw-xxl-d {
+  .hide-screen-xxl {
     display: none;
   }
 }

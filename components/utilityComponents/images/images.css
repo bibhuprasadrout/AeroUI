@@ -1,0 +1,39 @@
+@import url(../root.css);
+
+/* icons size */
+.i1 {
+  width: calc(var(--size-7) + 1vw);
+}
+.i2 {
+  width: calc(var(--size-5) + 1vw);
+}
+.i3 {
+  width: calc(var(--size-4) + 1vw);
+}
+.i4 {
+  width: calc(var(--size-3) + 1vw);
+}
+.i5 {
+  width: calc(var(--size-2) + 1vw);
+}
+.i6 {
+  width: calc(var(--size-1) + 1vw);
+}
+
+
+
+
+/* responsive image */
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-round {
+  border-radius: 50%;
+}
+
+.img-soft-edge {
+  border-radius: 50px;
+}
