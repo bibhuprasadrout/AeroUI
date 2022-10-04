@@ -2,12 +2,11 @@
 @import url(./resetStyle/normalize.css);
 @import url(./resetStyle/resetStyle.css);
 
-
-
 /* fonts used */
 @import url(./fonts/Merriweather/Fonts.css);
 
-
-
 /* Components */
 @import url(./components/components.css);
+
+/* Native Styles */
+@import url(./native/nativeStyle.css);
