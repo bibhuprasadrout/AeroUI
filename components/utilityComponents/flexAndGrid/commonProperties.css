@@ -1,135 +1,81 @@
 @import url(../root.css);
 
-/* flex and grid */
-.flex {
-  display: flex;
-}
-.grid {
-  display: grid;
-}
-
-/* center flex elements */
-.flex-c {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* center grid elements one upon another(super-impose),
-The elements involved and their parent are 
-coded together for this to work */
-
-/* code for the parent */
-.grid-c {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-}
-/* code for the elemets inside  */
-.grid-child-c {
-  grid-area: center;
-}
-
 /* align content */
-.ac-c {
+.align-c-c {
   align-content: center;
 }
-.ac-fs {
+.align-c-fs {
   align-content: flex-start;
 }
-.ac-fe {
+.align-c-fe {
   align-content: flex-end;
 }
-.ac-sa {
+.align-c-sa {
   align-content: space-around;
 }
-.ac-sb {
+.align-c-sb {
   align-content: space-between;
 }
-.ac-s {
+.align-c-s {
   align-content: stretch;
 }
 
 /* align items */
-.ai-b {
+.align-i-b {
   align-items: baseline;
 }
-.ai-c {
+.align-i-c {
   align-items: center;
 }
-.ai-fs {
+.align-i-fs {
   align-items: flex-start;
 }
-.ai-fe {
+.align-i-fe {
   align-items: flex-end;
 }
-.ai-s {
+.align-i-s {
   align-items: stretch;
 }
 
-/* justify items */
-.ji-b {
-  justify-items: baseline;
-}
-.ji-c {
-  justify-items: center;
-}
-.ji-e {
-  justify-items: end;
-}
-.ji-fs {
-  justify-items: flex-start;
-}
-.ji-fe {
-  justify-items: flex-end;
-}
-
 /* justify content */
-.jc-c {
+.justify-c-c {
   justify-content: center;
 }
-.jc-sa {
+.justify-c-sa {
   justify-content: space-around;
 }
-.jc-sb {
+.justify-c-sb {
   justify-content: space-between;
 }
-.jc-se {
+.justify-c-se {
   justify-content: space-evenly;
 }
-.jc-fs {
+.justify-c-fs {
   justify-content: flex-start;
 }
-.jc-fe {
+.justify-c-fe {
   justify-content: flex-end;
 }
 
-/* flex flow */
-.ff-c {
-  flex-flow: column;
+/* justify items */
+.justify-i-b {
+  justify-items: baseline;
 }
-.ff-cr {
-  flex-flow: column-reverse;
+.justify-i-c {
+  justify-items: center;
 }
-.ff-n {
-  flex-flow: nowrap;
+.justify-i-e {
+  justify-items: end;
 }
-.ff-r {
-  flex-flow: row;
+.justify-i-fs {
+  justify-items: flex-start;
 }
-.ff-rr {
-  flex-flow: row-reverse;
-}
-.ff-w {
-  flex-flow: wrap;
-}
-.ff-wr {
-  flex-flow: wrap-reverse;
+.justify-i-fe {
+  justify-items: flex-end;
 }
 
 /* gap/gutter */
-/* gutters are available from 10px to 
-30px with an increament of 5px */
+/* five gutter sizes are available for use */
 .g-1 {
   gap: var(--size-1);
 }

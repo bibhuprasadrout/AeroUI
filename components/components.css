@@ -5,7 +5,9 @@
 @import url(./utilityComponents/color/colors.css);
 @import url(./utilityComponents/containers/container.css);
 @import url(./utilityComponents/display/display.css);
-@import url(./utilityComponents/flexAndGrid/flexAndGrid.css);
+@import url(./utilityComponents/flexAndGrid/commonProperties.css);
+@import url(./utilityComponents/flexAndGrid/flex.css);
+@import url(./utilityComponents/flexAndGrid/grid.css);
 @import url(./utilityComponents/images/images.css);
 @import url(./utilityComponents/list/list.css);
 @import url(./utilityComponents/mediaQuery/hideAndShow.css);

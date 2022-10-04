@@ -1,4 +1,9 @@
 /* nav meny dropdown absolute position */
-#menu-dropdown {
+#navMenuMobileIcon + ul {
   transform: translate(0, 30%);
+}
+
+body {
+  display: grid;
+  grid-template-rows: 70px auto;
 }

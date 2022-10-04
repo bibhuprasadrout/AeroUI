@@ -1,0 +1,34 @@
+/* flex */
+.flex {
+  display: flex;
+}
+
+/* center flex elements */
+.flex-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* flex flow */
+.ff-c {
+  flex-flow: column;
+}
+.ff-cr {
+  flex-flow: column-reverse;
+}
+.ff-n {
+  flex-flow: nowrap;
+}
+.ff-r {
+  flex-flow: row;
+}
+.ff-rr {
+  flex-flow: row-reverse;
+}
+.ff-w {
+  flex-flow: wrap;
+}
+.ff-wr {
+  flex-flow: wrap-reverse;
+}

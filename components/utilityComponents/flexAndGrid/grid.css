@@ -1,0 +1,18 @@
+/* grid */
+.grid {
+  display: grid;
+}
+/* center grid elements one upon another(super-impose),
+The elements involved and their parent are 
+coded together for this to work */
+
+/* code for the parent */
+.grid-c {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+/* code for the elemets inside  */
+.grid-child-c {
+  grid-area: center;
+}
