@@ -2,33 +2,11 @@
 @import url(./resetStyle/normalize.css);
 @import url(./resetStyle/resetStyle.css);
 
-
-
 /* fonts used */
 @import url(./fonts/Merriweather/Fonts.css);
-
-
 
 /* Components */
 @import url(./components/components.css);
 
-/* Temp */
-
-.top {
-  display: grid;
-  grid-template-columns: 12;
-  grid-template-areas: 
-  'c1'
-  'c2'
-  'c3'
-  'c4'
-  'c5'
-  'c6'
-  'c7'
-  'c8'
-  'c9'
-  'c10'
-  'c11'
-  'c12'
-  ;
-}
+/* Native Styles */
+@import url(./native/nativeStyle.css);

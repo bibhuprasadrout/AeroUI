@@ -1,13 +1,9 @@
 :root {
-/* text colors */
+  /* text colors */
   --txt-primary: #1a1c1d;
   --txt-secondary: #6c757d;
   --txt-light: #bfcfdf;
-  --txt-white: #fff;
-  --txt-black: #000;
 
-
-  
   /* color charecteristics */
   --primary: #cfe2ff;
   --secondary: #e2e3e5;
@@ -15,8 +11,6 @@
   --danger: #f8d7da;
   --warning: #fff3cd;
   --info: #cff4fc;
-
-
 
   /* button colors */
 
@@ -26,12 +20,19 @@
   --btn-warning: #ffca2c;
   --btn-info: #0dcaf0;
 
-
-
-/* Theam */
-  --primary-color: #ffa400;
-  --secondary-color: #009ffd;
-  --tertiary-color: #2a2a72;
+  /* Theam */
+  /* black */
+  --black-color: #000;
+  /* white */
+  --white-color: #fff;
+  /* primary background */
+  --primary-color: #efefef;
+  /* secondary background */
+  --secondary-color: #caebf2;
+  /* primary text */
+  --tertiary-color: #a9a9a9;
+  /* minimal use */
+  --minimal-color: #ff3b3f;
 
   --dark-color-lite: #42464c;
   --dark-color: #232528;
@@ -41,66 +42,67 @@
   --light-color: #addcff;
   --light-color-heavy: #70c1ff;
 
+  /* colors list */
 
+  /* violet */
+  --violet-1: #e1dcfb;
+  --violet-2: #b193f8;
+  --violet-3: #8b5cf6;
+  --violet-4: #7042db;
+  --violet-5: #5c26ae;
+  /* indigo */
+  --indigo-1: #c5c6f9;
+  --indigo-2: #8a8cfa;
+  --indigo-3: #6366f1;
+  --indigo-4: #3d40db;
+  --indigo-5: #282ab9;
+  /* blue */
+  --blue-1: #c5d9fa;
+  --blue-2: #7bacfb;
+  --blue-3: #3b82f6;
+  --blue-4: #2066d8;
+  --blue-5: #0541a3;
+  /* green */
+  --green-1: #c0f7d4;
+  --green-2: #73e09b;
+  --green-3: #22c55e;
+  --green-4: #0db049;
+  --green-5: #039037;
+  /* yellow */
+  --yellow-1: #f4e3b1;
+  --yellow-2: #f5cb4c;
+  --yellow-3: #eab308;
+  --yellow-4: #bf9006;
+  --yellow-5: #785b03;
+  /* orange */
+  --orange-1: #f4c5a2;
+  --orange-2: #fea05d;
+  --orange-3: #f97316;
+  --orange-4: #c75504;
+  --orange-5: #873a04;
+  /* red */
+  --red-1: #f7b5b5;
+  --red-2: #f97575;
+  --red-3: #ef4444;
+  --red-4: #c80707;
+  --red-5: #870202;
+  /* grey */
+  --grey-1: #bfc3ca;
+  --grey-2: #91959e;
+  --grey-3: #6b7280;
+  --grey-4: #3e4451;
+  --grey-5: #252930;
 
+  /* units */
 
-/* colors list */
-
-/* violet */
---violet-1: #e1dcfb;
---violet-2: #b193f8;
---violet-3: #8b5cf6;
---violet-4: #7042db;
---violet-5: #5c26ae;
-/* indigo */
---indigo-1: #c5c6f9;
---indigo-2: #8a8cfa;
---indigo-3: #6366f1;
---indigo-4: #3d40db;
---indigo-5: #282ab9;
-/* blue */
---blue-1: #c5d9fa;
---blue-2: #7bacfb;
---blue-3: #3b82f6;
---blue-4: #2066d8;
---blue-5: #0541a3;
-/* green */
---green-1: #c0f7d4;
---green-2: #73e09b;
---green-3: #22c55e;
---green-4: #0db049;
---green-5: #039037;
-/* yellow */
---yellow-1: #f4e3b1;
---yellow-2: #f5cb4c;
---yellow-3: #eab308;
---yellow-4: #bf9006;
---yellow-5: #785b03;
-/* orange */
---orange-1: #f4c5a2;
---orange-2: #fea05d;
---orange-3: #f97316;
---orange-4: #c75504;
---orange-5: #873a04;
-/* red */
---red-1: #f7b5b5;
---red-2: #f97575;
---red-3: #ef4444;
---red-4: #c80707;
---red-5: #870202;
-/* grey */
---grey-1: #bfc3ca;
---grey-2: #91959e;
---grey-3: #6b7280;
---grey-4: #3e4451;
---grey-5: #252930;
-
-
-
-
-
-/* units */
-
+  --size-11p5: 11.5rem;
+  --size-11: 11rem;
+  --size-10p5: 10.5rem;
+  --size-10: 10rem;
+  --size-9p5: 9.5rem;
+  --size-9: 9rem;
+  --size-8p5: 8.5rem;
+  --size-8: 8rem;
   --size-7p5: 7.5rem;
   --size-7: 7rem;
   --size-6p5: 6.5rem;
@@ -115,6 +117,6 @@
   --size-2: 2rem;
   --size-1p5: 1.5rem;
   --size-1: 1rem;
-  --size-p5: .5rem;
+  --size-p5: 0.5rem;
   --size-0: 0;
 }

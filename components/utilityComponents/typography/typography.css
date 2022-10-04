@@ -1,5 +1,17 @@
 @import url(../root.css);
 
+/*
+
+ font-style - txt-s-i, txt-s-n, txt-s-o
+ heading - h1,h2,h3,h4,h5,h6
+ title - t1,t2,t3,t4,t5,t6
+ font-size - txt-r, txt-xs, txt-s, txt-m, txt-l, txt-xl
+ font-weight - txt-w-1, txt-w-2, txt-w-3...txt-w-9, txt-light, txt-regular, txt-semibold, txt-bold, txt-black
+ text align - txt-center, txt-justify, txt-left, txt-right, txt-start, txt-end
+ line-break - line-break-a, line-break-l, line break-n, line-break-s
+
+*/
+
 /* font-style */
 
 .txt-s-i {
@@ -14,13 +26,20 @@
   font-style: oblique;
 }
 
-
-
-
 /* heading */
 
-h1,h2,h3,h4,h5,h6,
-.h1,.h2,.h3,.h4,.h5,.h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   line-height: 1.5;
   font-weight: 700;
 }
@@ -59,46 +78,46 @@ h6,
   font-size: var(--size-1);
 }
 
-
-
-
 /* titles - they are similar to headings except that they
 will grow and shrink with the chnage in screen width  */
 
-.t1,.t2,.t3,.t4,.t5,.t6 {
+.t1,
+.t2,
+.t3,
+.t4,
+.t5,
+.t6 {
   line-height: 1.5;
   font-weight: 700;
 }
 
 .t1 {
-  font-size: calc( var(--size-3p5) + 1vw);
+  font-size: calc(var(--size-3p5) + 1vw);
 }
 
 .t2 {
-  font-size: calc( var(--size-3) + 1vw);
+  font-size: calc(var(--size-3) + 1vw);
 }
 
 .t3 {
-  font-size: calc( var(--size-2p5) + 1vw);
+  font-size: calc(var(--size-2p5) + 1vw);
 }
 
 .t4 {
-  font-size: calc( var(--size-2) + 1vw);
+  font-size: calc(var(--size-2) + 1vw);
 }
 
 .t5 {
-  font-size: calc( var(--size-1p5) + 1vw);
+  font-size: calc(var(--size-1p5) + 1vw);
 }
 
 .t6 {
-  font-size: calc( var(--size-1) + 1vw);
+  font-size: calc(var(--size-1) + 1vw);
 }
-
-
-
 
 /* text size*/
 
+/* text-regular */
 p,
 .txt-r {
   font-size: 1.6rem;
@@ -124,9 +143,6 @@ p,
 .txt-xl {
   font-size: var(--size-3);
 }
-
-
-
 
 /* font weights */
 
@@ -186,8 +202,6 @@ p,
   font-weight: 900;
 }
 
-
-
 /* text align */
 
 .txt-center {
@@ -214,35 +228,6 @@ p,
   text-align: end;
 }
 
-
-
-
-/* text color */
-
-.txt-primary {
-  color: var( --txt-primary);
-}
-.txt-secondary {
-  color: var( --txt-secondary);
-}
-.txt-light {
-  color: var(--txt-light);
-}
-.txt-white {
-  color: var(--txt-white);
-}
-.txt-black {
-  color: var(--txt-black);
-}
-
-
-.txt-strike-through {
-  text-decoration: line-through;
-}
-
-
-
-
 /* line break */
 
 .line-break-a {
@@ -258,34 +243,42 @@ p,
   line-break: strict;
 }
 
-
-
-
 /* media screens */
 
 @media screen and (min-width: 96em) {
-  h1,  .h1, .t1 {
+  h1,
+  .h1,
+  .t1 {
     font-size: var(--size-7);
   }
 
-  h2,  .h2, .t2 {
+  h2,
+  .h2,
+  .t2 {
     font-size: var(--size-6p5);
   }
 
-  h3,  .h3, .t3 {
+  h3,
+  .h3,
+  .t3 {
     font-size: var(--size-6);
   }
 
-  h4,  .h4, .t4 {
+  h4,
+  .h4,
+  .t4 {
     font-size: var(--size-5p5);
   }
 
-  h5,  .h5, .t5 {
+  h5,
+  .h5,
+  .t5 {
     font-size: var(--size-5);
   }
 
-  h6,  .h6, .t6 {
+  h6,
+  .h6,
+  .t6 {
     font-size: var(--size-4p5);
   }
-
 }

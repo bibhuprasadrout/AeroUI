@@ -1,77 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Title -->
     <title>AeroUI</title>
 
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="./assets/icons/AeroUI-Icon-Light.svg" class="favicon">
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/icons/AeroUI-Icon-Light.svg"
+      class="favicon"
+    />
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/index.css" />
 
     <!-- scripts -->
     <script src="./index.js"></script>
-    <script defer src="./components/navBar/navBar.js"></script>
-</head>
-<body>
-    <div class="conainer top">
-        <section class="container" >
-            
-            <!-- Nav bar -->
-            <div class="flex-c justify-c-sb bg-primary-color px-l">
-                
-                <!-- Left part of nav bar that includes the name and logo on a site -->
-                <div class="flex-c gx-2">
-                    <img class="i2" src="./assets/icons/AeroUI-Icon-Dark.svg" alt="logo">
-                    <span class="t2 txt-w-7 txt-s-i">AeroUI</span>
-                </div>
-                
-                <!-- Right part of navbar that includes menu and other options -->
-                <div class="hide-screen-s">
-                    <ul class="horizontal-list align-i-c t6 txt-w-5">
-                        <li>Home</li>
-                        <li>Docs</li>
-                        <li>Utilities</li>
-                        <li>Components</li>
-                        <li class="grid-c">
-                            <img class="grid-child-c" src="./assets/icons/darkModeIcon.svg" alt="Dark">
-                            <img class="grid-child-c hidden" src="./assets/icons/lightModeIcon.svg" alt="Light" >
-                        </li>
-                        <li class="flex-c"><img src="./assets/icons/githubDark.svg" alt="Github"></li>
-                    </ul>
-                </div>
+    <script type="module"></script>
+    <script defer type="module">
+      import { nativeDeferScript } from "./native/nativeDeferScript.js";
+      nativeDeferScript();
+    </script>
+  </head>
 
-                <!-- Mobile version of the right part of nav bar -->
-                <div class="show-screen-s">
-                    <div class="flex-c gx-3">
-                        <li class="grid-c">
-                            <img class="grid-child-c" src="./assets/icons/darkModeIcon.svg" alt="Dark">
-                            <img class="grid-child-c hidden" src="./assets/icons/lightModeIcon.svg" alt="Light" >
-                        </li>
-                        <div class="position-r flex ff-rr">
-                            <img id="navMenuMobileIcon" src="./assets/icons/hamBurgerMenuDark.svg" alt="hamburger icon">
-                            <ul class="vertical-list justify-c-c align-i-fe txt-s txt-w-3 position-a hidden">
-                                <li>Home</li>
-                                <li>Docs</li>
-                                <li>Utilities</li>
-                                <li>Components</li>
-                                <li class="flex gx-1">
-                                    <p>Contribute</p>
-                                    <img class="i6" src="./assets/icons/githubDark.svg" alt="Github">
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            
+  <body>
+    <div class="container">
+      <!-- Nav bar -->
+      <div class="flex-c jc-sb bg-white px-l bg-light-lite">
+        <!-- Left part of nav bar that includes the name and logo on a site -->
+        <div class="flex-c gx-1">
+          <img
+            class="i5"
+            src="./assets/icons/AeroUI-Icon-Light.svg"
+            alt="logo"
+          />
+          <span class="t5 txt-w-7 txt-s-i">AeroUI</span>
+        </div>
+
+        <!-- Right part of navbar that includes menu and other options -->
+        <div class="hide-screen-s">
+          <ul class="horizontal-list ai-c h6 txt-w-3 txt-grey-3">
+            <li>home</li>
+            <li>docs</li>
+            <li>utilities</li>
+            <li>components</li>
+            <li class="grid-c">
+              <img
+                class="grid-child-c i6"
+                src="./assets/icons/darkModeIcon.svg"
+                alt="Dark"
+              />
+              <img
+                class="grid-child-c hidden i6"
+                src="./assets/icons/lightModeIcon.svg"
+                alt="Light"
+              />
+            </li>
+            <li class="flex-c">
+              <img
+                class="i6"
+                src="./assets/icons/githubDark.svg"
+                alt="Github"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <!-- Mobile version of the right part of nav bar -->
+        <div class="show-screen-s">
+          <div class="flex-c gx-1">
+            <li class="grid-c">
+              <img
+                class="grid-child-c i6"
+                src="./assets/icons/darkModeIcon.svg"
+                alt="Dark"
+              />
+              <img
+                class="grid-child-c hidden i6"
+                src="./assets/icons/lightModeIcon.svg"
+                alt="Light"
+              />
+            </li>
+            <div class="position-r flex ff-rr">
+              <img
+                id="navMenuMobileIcon"
+                class="i6"
+                src="./assets/icons/hamBurgerMenuDark.svg"
+                alt="hamburger icon"
+              />
+              <ul
+                class="vertical-list jc-c ai-fe txt-xs txt-w-3 position-a hidden"
+                id="menu-dropdown"
+              >
+                <li>Home</li>
+                <li>Docs</li>
+                <li>Utilities</li>
+                <li>Components</li>
+                <li class="flex gx-1">
+                  <p class="txt-s">Contribute</p>
+                  <img
+                    class="i6"
+                    src="./assets/icons/githubDark.svg"
+                    alt="Github"
+                  />
+                </li>
+              </ul>
             </div>
-            
-        </section>
+          </div>
+        </div>
+      </div>
+      <div id="navBar"></div>
     </div>
-</body>
+    <!-- 
+
+
+
+     -->
+    <div class="container bg-secondary height-max width-max"></div>
+  </body>
 </html>
